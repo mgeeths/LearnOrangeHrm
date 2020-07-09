@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Practice Sanity TestNG Suite]">
+  <test thread-count="5" name="NewUsersAndLeaveListTests(failed)">
+    <parameter name="holidayName" value="Thanksgiving Day"/>
+    <parameter name="holidayDate" value="2020-11-26"/>
+    <classes>
+      <class name="com.hrm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="validLogin"/>
+          <include name="validateLoginPageTitle"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateLogo"/>
+        </methods>
+      </class> <!-- com.hrm.qa.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- NewUsersAndLeaveListTests(failed) -->
+</suite> <!-- Failed suite [Practice Sanity TestNG Suite] -->

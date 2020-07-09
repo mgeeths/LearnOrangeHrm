@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Sanity TestNG Suite">
+	<test name="NewUsersAndLeaveListTests">
+		<parameter name="holidayName" value="Thanksgiving Day"/>
+		<parameter name="holidayDate" value="2020-11-26"/>
+		<classes>
+			<!-- 
+			
+			<class name="com.hrm.qa.testcases.AddEmpPageTest" />
+			<class name="com.hrm.qa.testcases.EmpListPageTest" />
+			<class name="com.hrm.qa.testcases.AssignLeavePageTest" />
+			<class name="com.hrm.qa.testcases.LeaveListPageTest" />
+			<class name="com.hrm.qa.testcases.DeleteEmpCreatedTest"/>
+			<class name="com.hrm.qa.testcases.ConfigureNewHolidaysTest"/>
+			<class name="com.hrm.qa.testcases.DashboardPageTest" />
+			
+			 -->
+			
+			<class name="com.hrm.qa.testcases.LoginPageTest" />
+		</classes>
+
+		<!--Your comment <class name="com.hrm.qa.testcases.AddEmpPageTest" /> 
+		 
+		<class name="com.hrm.qa.testcases.HolidaysPageTest"/>  
+		<class name="com.hrm.qa.testcases.TrackerTestPage"/>
+		 <class name="com.hrm.qa.testcases.AddUserPageTest" /> 
+		 <class name="com.hrm.qa.testcases.UserPageTest" />
+		 -->
+
+	</test>
+
+
+</suite> 
